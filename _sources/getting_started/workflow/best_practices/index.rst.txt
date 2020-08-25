@@ -1,0 +1,17 @@
+Best practices
+==============
+
+.. toctree::
+   :maxdepth: 1
+   :name: toc-best-practices
+
+   introduction_best_practices
+   what_are_ValjangEngine_classes
+   scene_organization
+   scenes_versus_scripts
+   autoloads_versus_internal_nodes
+   node_alternatives
+   ValjangEngine_interfaces
+   ValjangEngine_notifications
+   data_preferences
+   logic_preferences
