@@ -43,7 +43,7 @@ Language-based communities
 Social networks
 ---------------
 
-- `GitHub <https://github.com/ValjangEngineengine/>`_
+- `GitHub <https://github.com/mehdigoom/ValjangEngine-doc/>`_
 - `Facebook group <https://www.facebook.com/groups/ValjangEngineengine/>`_
 - `Twitter <https://twitter.com/ValjangEngineengine>`_
   (see also the `#ValjangEngineEngine <https://twitter.com/hashtag/ValjangEngineEngine>`_ hashtag)

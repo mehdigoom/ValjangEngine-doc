@@ -18,10 +18,10 @@ Official Git plugin
 
 Using Git from inside the editor is supported with an official plugin.
 You can find the latest releases
-`here <https://github.com/ValjangEngineengine/ValjangEngine-git-plugin/releases>`__
+`here <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-git-plugin/releases>`__
 (it is not available in the asset library). Documentation on how to use the Git
 plugin can be found
-`here <https://github.com/ValjangEngineengine/ValjangEngine-git-plugin/wiki>`__.
+`here <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-git-plugin/wiki>`__.
 
 Files to exclude from VCS
 -------------------------

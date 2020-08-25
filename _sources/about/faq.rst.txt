@@ -18,14 +18,14 @@ In short:
 
 All the contents of this accompanying documentation are published under
 the permissive Creative Commons Attribution 3.0 (`CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`_) license, with attribution
-to "Juan Linietsky, Ariel Manzur and the ValjangEngine community."
+to "Valjang, Valjang.fr and the ValjangEngine community."
 
 Logos and icons are generally under the same Creative Commons license. Note
 that some third-party libraries included with ValjangEngine's source code may have
 different licenses.
 
-For full details, look at the `COPYRIGHT.txt <https://github.com/ValjangEngineengine/ValjangEngine/blob/master/COPYRIGHT.txt>`_ as well
-as the `LICENSE.txt <https://github.com/ValjangEngineengine/ValjangEngine/blob/master/LICENSE.txt>`_ and `LOGO_LICENSE.txt <https://github.com/ValjangEngineengine/ValjangEngine/blob/master/LOGO_LICENSE.md>`_ files
+For full details, look at the `COPYRIGHT.txt <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/blob/master/COPYRIGHT.txt>`_ as well
+as the `LICENSE.txt <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/blob/master/LICENSE.txt>`_ and `LOGO_LICENSE.txt <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/blob/master/LOGO_LICENSE.md>`_ files
 in the ValjangEngine repository.
 
 Also, see `the license page on the ValjangEngine website <https://Valjang.fr/license>`_.
@@ -79,7 +79,7 @@ Note that C# support is still relatively new, and as such, you may encounter som
 issues along the way. Our friendly and hard-working development community is always
 ready to tackle new problems as they arise, but since this is an open-source project,
 we recommend that you first do some due diligence yourself. Searching through
-discussions on `open issues <https://github.com/ValjangEngineengine/ValjangEngine/issues>`_ is a
+discussions on `open issues <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues>`_ is a
 great way to start your troubleshooting.
 
 As for new languages, support is possible via third parties using the GDNative /
@@ -249,8 +249,8 @@ I would like to contribute! How can I get started?
 Awesome! As an open-source project, ValjangEngine thrives off of the innovation and
 ambition of developers like you.
 
-The first place to get started is in the `issues <https://github.com/ValjangEngineengine/ValjangEngine/issues>`_.
-Find an issue that resonates with you, then proceed to the `How to Contribute <https://github.com/ValjangEngineengine/ValjangEngine/blob/master/CONTRIBUTING.md#contributing-pull-requests>`_
+The first place to get started is in the `issues <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues>`_.
+Find an issue that resonates with you, then proceed to the `How to Contribute <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/blob/master/CONTRIBUTING.md#contributing-pull-requests>`_
 guide to learn how to fork, modify, and submit a Pull Request (PR) with your changes.
 
 I have a great idea for ValjangEngine. How can I share it?
@@ -261,8 +261,8 @@ result in massive core changes, some sort of mimicry of what another
 game engine does, or alternative workflows that you'd like built into
 the editor. These are great, and we are thankful to have such motivated
 people want to contribute, but ValjangEngine's focus is and always will be the
-core functionality as outlined in the `Roadmap <https://github.com/ValjangEngineengine/ValjangEngine-roadmap/blob/master/ROADMAP.md>`_,
-`squashing bugs and addressing issues <https://github.com/ValjangEngineengine/ValjangEngine/issues>`_,
+core functionality as outlined in the `Roadmap <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-roadmap/blob/master/ROADMAP.md>`_,
+`squashing bugs and addressing issues <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues>`_,
 and conversations between ValjangEngine community members.
 
 Most developers in the ValjangEngine community will be more interested to learn

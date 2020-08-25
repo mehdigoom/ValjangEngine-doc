@@ -14,7 +14,7 @@ is used to indicate to ValjangEngine that the file has been exported from anothe
 program and should not be edited by the user from within ValjangEngine.
 
 For those looking for a complete description, the parsing is handled in the file
-`resource_format_text.cpp <https://github.com/ValjangEngineengine/ValjangEngine/blob/master/scene/resources/resource_format_text.cpp>`_
+`resource_format_text.cpp <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/blob/master/scene/resources/resource_format_text.cpp>`_
 in the ``ResourceFormatLoaderText`` class.
 
 File structure

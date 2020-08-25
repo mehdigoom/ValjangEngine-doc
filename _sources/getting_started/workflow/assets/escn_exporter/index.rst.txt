@@ -2,7 +2,7 @@ Blender ESCN exporter
 =====================
 
 .. note:: This chapter relates to the Blender plugin called "ValjangEngine Blender Exporter",
-          which can be downloaded here: https://github.com/ValjangEngineengine/ValjangEngine-blender-exporter
+          which can be downloaded here: https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-blender-exporter
 
 This plugin can be used to export Blender scenes in a ValjangEngine-specific scene format
 called ESCN, which is similar to TSCN (text format) but will be imported as binary

@@ -7888,10 +7888,10 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <p>Nous passerons ensemble par un exemple pour montrer le flux de travail typique et les commandes Git associées. Mais tout d'abord, jetons un coup d'oeil rapide à l'organisation du dépôt Git de ValjangEngine.</p>
 <div class="section" id="git-source-repository">
 <h2>Dépôt Git source<a class="headerlink" href="pr_workflow.html#git-source-repository" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Le <a class="reference external" href="https://github.com/ValjangEngineengine/ValjangEngine">repository sur GitHub</a> est un dépôt de code de <a class="reference external" href="https://git-scm.com">Git</a> avec un système de suivi des problèmes et PR intégré.</p>
+<p>Le <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine">repository sur GitHub</a> est un dépôt de code de <a class="reference external" href="https://git-scm.com">Git</a> avec un système de suivi des problèmes et PR intégré.</p>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p class="last">Si vous participer à la documentation, son dépôt peut être trouvé <a class="reference external" href="https://github.com/ValjangEngineengine/ValjangEngine-docs">ici</a>.</p>
+<p class="last">Si vous participer à la documentation, son dépôt peut être trouvé <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs">ici</a>.</p>
 </div>
 <p>Le système de contrôle de version Git est l'outil utilisé pour garder la trace des modifications successives du code source - pour contribuer efficacement à ValjangEngine, l'apprentissage des bases de la ligne de commande Git est <em>hautement</em> recommandé. Il existe quelques interfaces graphiques pour Git, mais elles encouragent généralement les utilisateurs à prendre de mauvaises habitudes concernant le flux de travail Git et PR, et nous recommandons donc de ne pas les utiliser. En particulier, nous conseillons de ne pas utiliser l'éditeur en ligne de GitHub pour les contributions de code (bien qu'il soit toléré pour les petites corrections ou modifications de la documentation) car il impose un commit par fichier et par modification, ce qui conduit rapidement à des PR avec un historique Git illisible (surtout après une révision par les pairs).</p>
 <div class="admonition seealso">
@@ -7907,7 +7907,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </div>
 <div class="section" id="forking-and-cloning">
 <h2>Forker et cloner<a class="headerlink" href="pr_workflow.html#forking-and-cloning" title="Lien permanent vers ce titre">¶</a></h2>
-<p>La première étape consiste à <em>forker</em> le dépôt <a class="reference external" href="https://github.com/ValjangEngineengine/ValjangEngine">ValjangEngineengine/ValjangEngine</a> sur GitHub. Pour ce faire, vous devez disposer d'un compte GitHub et y être connecté. Dans le coin en haut à droite de la page du dépôt GitHub, vous devriez voir un bouton &quot;Fork&quot; comme montré ci-dessous :</p>
+<p>La première étape consiste à <em>forker</em> le dépôt <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine">ValjangEngineengine/ValjangEngine</a> sur GitHub. Pour ce faire, vous devez disposer d'un compte GitHub et y être connecté. Dans le coin en haut à droite de la page du dépôt GitHub, vous devriez voir un bouton &quot;Fork&quot; comme montré ci-dessous :</p>
 <img alt="../../_images/github_fork_button.png" src="../../_images/github_fork_button.png" />
 <p>Cliquez dessus, et après un certain temps, vous devriez être redirigé vers votre propre fork du dépôt ValjangEngine, avec votre nom d'utilisateur GitHub comme espace de noms :</p>
 <img alt="../../_images/github_fork_url.png" src="../../_images/github_fork_url.png" />
@@ -7929,7 +7929,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </pre></div>
 </div>
 <p>Nous allons commencer par mettre en place une référence vers le dépôt original que nous avons forké :</p>
-<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ git remote add upstream https://github.com/ValjangEngineengine/ValjangEngine
+<div class="highlight-shell notranslate"><div class="highlight"><pre><span></span>$ git remote add upstream https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine
 $ git fetch upstream
 </pre></div>
 </div>
@@ -8173,7 +8173,7 @@ hint: its remote counterpart.
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2014-2020, Juan Linietsky, Ariel Manzur and the ValjangEngine community (CC-BY 3.0)
+        &copy; Copyright 2014-2020, Valjang, Valjang.fr and the ValjangEngine community (CC-BY 3.0)
       
         <span class="commit">
           Revision <code>b3e50a4a</code>.

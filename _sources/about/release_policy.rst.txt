@@ -79,6 +79,6 @@ merged.
 
 .. seealso::
 
-    The `roadmap <https://github.com/ValjangEngineengine/ValjangEngine-roadmap>`__ repository
+    The `roadmap <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-roadmap>`__ repository
     documents features that have been agreed upon and may be implemented in future
     ValjangEngine releases.

@@ -8,7 +8,7 @@ The new plugin uses the `Google Play Billing library <https://developer.android.
 instead of the now deprecated AIDL IAP implementation.
 
 If you learn better by looking at an example, you can find the demo project
-`here <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects/tree/master/mobile/android_iap>`__.
+`here <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects/tree/master/mobile/android_iap>`__.
 
 
 Migrating from ValjangEngine 3.2.1 and lower (ValjangEnginePaymentsV3)
@@ -35,7 +35,7 @@ Getting started
 ***************
 
 If not already done, make sure you have enabled and successfully set up :ref:`Android Custom Builds <doc_android_custom_build>`.
-Grab the``ValjangEngineGooglePlayBilling`` plugin binary and config from the `releases page <https://github.com/ValjangEngineengine/ValjangEngine-google-play-billing/releases>`__
+Grab the``ValjangEngineGooglePlayBilling`` plugin binary and config from the `releases page <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-google-play-billing/releases>`__
 and put both into `res://android/plugins`.
 The plugin should now show up in the Android export settings, where you can enable it.
 

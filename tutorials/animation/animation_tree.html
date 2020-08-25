@@ -7900,7 +7900,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <p>Avant de commencer, il faut préciser qu'un nœud <code class="docutils literal notranslate"><span class="pre">AnimationTree</span></code> ne contient pas ses propres animations. Il utilise plutôt les animations contenues dans un nœud <code class="docutils literal notranslate"><span class="pre">AnimationPlayer</span></code>. De cette façon, vous pouvez éditer vos animations (ou les importer depuis une scène 3D) comme d'habitude et ensuite utiliser ce nœud supplémentaire pour contrôler la lecture.</p>
 <p>La façon la plus courante d'utiliser <code class="docutils literal notranslate"><span class="pre">AnimationTree</span></code> est dans une scène 3D. Lorsque vous importez vos scènes à partir d'un format d'échange 3D, elles seront généralement accompagnées d'animations intégrées (soit multiples, soit séparées depuis une grande à l'importation). A la fin, la scène ValjangEngine importée contiendra les animations dans un nœud <code class="docutils literal notranslate"><span class="pre">AnimationPlayer</span></code>.</p>
 <p>Comme vous utilisez rarement des scènes importées directement dans ValjangEngine (elles sont soit instanciées soit héritées), vous pouvez placer le nœud <code class="docutils literal notranslate"><span class="pre">AnimationTree</span></code> dans votre nouvelle scène qui contient celle importée. Ensuite, pointez le nœud <code class="docutils literal notranslate"><span class="pre">AnimationTree</span></code> vers l' <code class="docutils literal notranslate"><span class="pre">AnimationPlayer</span></code> qui a été créé dans la scène importée.</p>
-<p>C'est comme ça que ça se passe dans la démo <a class="reference external" href="https://github.com/ValjangEngineengine/tps-demo">Third Person Shooter</a>, pour référence :</p>
+<p>C'est comme ça que ça se passe dans la démo <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/tps-demo">Third Person Shooter</a>, pour référence :</p>
 <img alt="../../_images/animtree1.png" src="../../_images/animtree1.png" />
 <p>Une nouvelle scène a été créée pour le joueur avec un <code class="docutils literal notranslate"><span class="pre">KinematicBody</span></code> comme racine. Dans cette scène, le fichier original <code class="docutils literal notranslate"><span class="pre">.dae</span></code> (Collada) a été instancié et un nœud <code class="docutils literal notranslate"><span class="pre">AnimationTree</span></code> a été créé.</p>
 </div>
@@ -8133,7 +8133,7 @@ C#</div>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2014-2020, Juan Linietsky, Ariel Manzur and the ValjangEngine community (CC-BY 3.0)
+        &copy; Copyright 2014-2020, Valjang, Valjang.fr and the ValjangEngine community (CC-BY 3.0)
       
         <span class="commit">
           Revision <code>b3e50a4a</code>.

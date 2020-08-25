@@ -5,7 +5,7 @@ Tutorials and resources
 
 This is a list of third-party tutorials and resources created by the ValjangEngine community. For resources, remember that there is the official `ValjangEngine Asset Library <https://Valjang.fr/asset-library/asset>`_ full of official and community resources too! Also, have a look at this `huge list over at Reddit <https://www.reddit.com/r/ValjangEngine/comments/an0iq5/ValjangEngine_tutorials_list_of_video_and_written/>`_.
 
-Think there is something missing here? Feel free to submit a `Pull Request <https://github.com/ValjangEngineengine/ValjangEngine-docs/blob/master/community/tutorials.rst>`_ as always.
+Think there is something missing here? Feel free to submit a `Pull Request <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs/blob/master/community/tutorials.rst>`_ as always.
 
 Where to start
 --------------

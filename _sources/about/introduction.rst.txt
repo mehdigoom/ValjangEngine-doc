@@ -65,13 +65,13 @@ open source `Sphinx <http://www.sphinx-doc.org>`_ and `ReadTheDocs
 
 .. note:: You can contribute to ValjangEngine's documentation by opening issue tickets
           or sending patches via pull requests on its GitHub
-          `source repository <https://github.com/ValjangEngineengine/ValjangEngine-docs>`_, or
+          `source repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs>`_, or
           translating it into your language on `Hosted Weblate
           <https://hosted.weblate.org/projects/ValjangEngine-engine/ValjangEngine-docs/>`_.
 
 All the contents are under the permissive Creative Commons Attribution 3.0
 (`CC-BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`_) license, with
-attribution to "Juan Linietsky, Ariel Manzur and the ValjangEngine community".
+attribution to "Valjang, Valjang.fr and the ValjangEngine community".
 
 Organization of the documentation
 ---------------------------------
@@ -105,6 +105,6 @@ relatively intuitive:
   :ref:`doc_updating_the_class_reference` for details.
 
 In addition to this documentation you may also want to take a look at the
-various `ValjangEngine demo projects <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects>`_.
+various `ValjangEngine demo projects <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects>`_.
 
 Have fun reading and making games with ValjangEngine!

@@ -339,7 +339,7 @@ Import
    - Ogg Vorbis.
 - *3D scenes:*
    - glTF 2.0 *(recommended)*.
-   - `ESCN <https://github.com/ValjangEngineengine/ValjangEngine-blender-exporter>`__
+   - `ESCN <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-blender-exporter>`__
      (direct export from Blender).
    - FBX (experimental).
    - Collada (.dae).
@@ -498,7 +498,7 @@ Miscellaneous
   the scene tree's overhead when needed.
 - Command line interface for automation.
    - Export and deploy projects using continuous integration platforms.
-   - `Completion scripts <https://github.com/ValjangEngineengine/ValjangEngine/tree/master/misc/dist/shell>`__
+   - `Completion scripts <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/tree/master/misc/dist/shell>`__
      are available for Bash, zsh and fish.
 - Support for :ref:`C++ modules <doc_custom_modules_in_c++>` statically linked
   into the engine binary.
@@ -514,6 +514,6 @@ Miscellaneous
 
 .. seealso::
 
-    The `roadmap <https://github.com/ValjangEngineengine/ValjangEngine-roadmap>`__ repository
+    The `roadmap <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-roadmap>`__ repository
     documents features that have been agreed upon and may be implemented in
     future ValjangEngine releases.

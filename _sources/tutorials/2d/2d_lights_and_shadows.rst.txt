@@ -7,13 +7,13 @@ Introduction
 ------------
 
 This tutorial explains how the 2D lighting works in the
-`lights and shadows <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects/tree/master/2d/lights_and_shadows>`_ demo project.
+`lights and shadows <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects/tree/master/2d/lights_and_shadows>`_ demo project.
 It begins with a brief description of the resources used in the final demo and then describes how
 to make a scene like the demo step by step.
 
 .. image:: img/light_shadow_main.png
 
-All the resources for this tutorial can be found in the `official demo repository <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects>`_
+All the resources for this tutorial can be found in the `official demo repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects>`_
 on GitHub. I suggest you download it before starting. Alternatively,
 it can be downloaded from the Project Manager. Launch ValjangEngine and in the top
 bar select "Templates" and search for "2D Lights and Shadows Demo".

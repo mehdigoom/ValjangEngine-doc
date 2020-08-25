@@ -1305,4 +1305,4 @@ Project files
 
 You can find a completed version of this project at these locations:
  - https://github.com/kidscancode/ValjangEngine3_dodge/releases
- - https://github.com/ValjangEngineengine/ValjangEngine-demo-projects
+ - https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects

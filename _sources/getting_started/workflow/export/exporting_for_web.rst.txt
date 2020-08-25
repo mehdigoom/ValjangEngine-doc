@@ -20,7 +20,7 @@ in the user's browser.
                         Use ``python -m http.server 8000 --bind 127.0.0.1`` with Python 3 to serve the
                         current working directory at ``http://localhost:8000``.
 
-.. attention:: `There are significant bugs when running HTML5 projects on iOS <https://github.com/ValjangEngineengine/ValjangEngine/issues/26554>`__
+.. attention:: `There are significant bugs when running HTML5 projects on iOS <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues/26554>`__
                (regardless of the browser). We recommend using
                :ref:`iOS' native export functionality <doc_exporting_for_ios>`
                instead, as it will also result in better performance.
@@ -126,7 +126,7 @@ The following functionality is currently unavailable on the HTML5 platform:
  -  Networking other than :ref:`class_HTTPClient` and :ref:`class_WebSocketClient`
 
 .. tip:: Check the `list of open HTML5 issues on GitHub
-         <https://github.com/ValjangEngineengine/ValjangEngine/issues?q=is:open+is:issue+label:platform:html5>`__
+         <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues?q=is:open+is:issue+label:platform:html5>`__
          to see if the functionality you're interested in has an issue yet. If
          not, open one to communicate your interest.
 

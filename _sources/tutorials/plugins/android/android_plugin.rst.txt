@@ -169,7 +169,7 @@ Reference implementations
 
     -   `Bundled gdnative resources <https://github.com/ValjangEngineVR/ValjangEngine_oculus_mobile/tree/master/plugin/src/main/assets/addons/ValjangEngine_ovrmobile>`_
 
--   `ValjangEngine Google Play Billing plugin <https://github.com/ValjangEngineengine/ValjangEngine-google-play-billing>`_
+-   `ValjangEngine Google Play Billing plugin <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-google-play-billing>`_
 
 
 Troubleshooting

@@ -5,7 +5,7 @@ Using an external text editor
 
 .. warning::
 
-    `External editors are currently incompatible with ValjangEngine's "Sync Script Changes" feature. <https://github.com/ValjangEngineengine/ValjangEngine/issues/10946>`__
+    `External editors are currently incompatible with ValjangEngine's "Sync Script Changes" feature. <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues/10946>`__
 
 ValjangEngine can be used with an external text editor, such as Sublime Text or Visual Studio Code.
 To enable an external text editor, browse to the relevant editor settings via:

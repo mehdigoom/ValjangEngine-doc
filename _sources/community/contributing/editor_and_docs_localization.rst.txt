@@ -357,11 +357,11 @@ can use the downloaded PO file and :ref:`compile ValjangEngine from source <toc-
 
 Rename the editor translation PO file to ``<lang>.po`` (e.g. ``eo.po`` for
 Esperanto) and place it in the ``editor/translations/`` folder
-(`GitHub <https://github.com/ValjangEngineengine/ValjangEngine/tree/master/editor/translations>`__).
+(`GitHub <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/tree/master/editor/translations>`__).
 
 You can also test class reference changes the same way by renaming the PO file
 similarly and placing it in the ``doc/translations/`` folder
-(`GitHub <https://github.com/ValjangEngineengine/ValjangEngine/tree/master/doc/translations>`__).
+(`GitHub <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/tree/master/doc/translations>`__).
 
 Localizing documentation images
 -------------------------------
@@ -371,7 +371,7 @@ ValjangEngine editor, custom-made graphs, of any other kind of visual content. S
 it includes text and might thus be relevant to localize in your language.
 
 This part is not handled via Weblate, but directly on the `ValjangEngine-docs-l10n
-<https://github.com/ValjangEngineengine/ValjangEngine-docs-l10n>`_ Git repository where the
+<https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs-l10n>`_ Git repository where the
 documentation translations are synced from Weblate.
 
 .. note::
@@ -405,7 +405,7 @@ added before the extension, e.g. ``project_manager_first_open.png`` would become
 
 Finally, on ValjangEngine-docs-l10n_, recreate the same folder structure as for the
 original image in the ``images`` subfolder
-(`GitHub <https://github.com/ValjangEngineengine/ValjangEngine-docs-l10n/tree/master/images>`_),
+(`GitHub <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs-l10n/tree/master/images>`_),
 and place your translated image there. In our example, the end result should be
 ``images/getting_started/step_by_step/img/project_manager_first_open.fr.png``.
 

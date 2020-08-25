@@ -8047,7 +8047,7 @@ scons <span class="nv">p</span><span class="o">=</span>x11 <span class="nv">targ
 <div class="section" id="building-the-mono-runtime">
 <h2>Construction du runtime Mono<a class="headerlink" href="compiling_with_mono.html#building-the-mono-runtime" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Lorsque vous compilez ValjangEngine pour le bureau, vous utiliserez probablement le runtime Mono pré-construit qui est installé sur votre système. Ce ne sera probablement pas le cas lorsque vous visez d'autres plateformes comme Android, iOS et WebAssembly. Vous devrez construire vous-même le runtime Mono pour ces plates-formes.</p>
-<p>Nous vous recommandons d'utiliser ces <a class="reference external" href="https://github.com/ValjangEngineengine/ValjangEngine-mono-builds">scripts de construction</a>. Ils simplifient ce processus mais incluent également certains correctifs nécessaires au bon fonctionnement de ValjangEngine. Consultez le README sur le lien ci-dessus pour savoir comment utiliser les scripts.</p>
+<p>Nous vous recommandons d'utiliser ces <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-mono-builds">scripts de construction</a>. Ils simplifient ce processus mais incluent également certains correctifs nécessaires au bon fonctionnement de ValjangEngine. Consultez le README sur le lien ci-dessus pour savoir comment utiliser les scripts.</p>
 </div>
 <div class="section" id="targeting-android">
 <h2>Cibler Android<a class="headerlink" href="compiling_with_mono.html#targeting-android" title="Lien permanent vers ce titre">¶</a></h2>
@@ -8124,7 +8124,7 @@ lipo -create bin/libmono-ilgen.iphone.arm64.a -output bin/ios/iphone-mono-libs/l
 <h2>Compilateurs croisés AOT<a class="headerlink" href="compiling_with_mono.html#aot-cross-compilers" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Pour effectuer une compilation anticipée (AOT) pour d'autres plates-formes, ValjangEngine doit avoir accès aux compilateurs croisés Mono pour cette plate-forme et cette architecture.</p>
 <p>ValjangEngine cherchera l'exécutable cross-compiler dans le dossier des compilateurs AOT. L'emplacement de ce dossier est <code class="docutils literal notranslate"><span class="pre">&lt;data_folder&gt;/Tools/aot-compilers</span></code>.</p>
-<p>Afin de construire les compilateurs croisés, nous recommandons d'utiliser ces <a class="reference external" href="https://github.com/ValjangEngineengine/ValjangEngine-mono-builds">scripts de construction</a>.</p>
+<p>Afin de construire les compilateurs croisés, nous recommandons d'utiliser ces <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-mono-builds">scripts de construction</a>.</p>
 <p>Après les avoir compilé, copiez l'exécutable dans le répertoire des compilateurs ValjangEngine AOT. Le nom de l'exécutable est <code class="docutils literal notranslate"><span class="pre">&lt;triple&gt;-mono-sgen</span></code>, par exemple <code class="docutils literal notranslate"><span class="pre">aarch64-apple-darwin-mono-sgen</span></code>.</p>
 </div>
 <div class="section" id="command-line-options">
@@ -8180,7 +8180,7 @@ lipo -create bin/libmono-ilgen.iphone.arm64.a -output bin/ios/iphone-mono-libs/l
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2014-2020, Juan Linietsky, Ariel Manzur and the ValjangEngine community (CC-BY 3.0)
+        &copy; Copyright 2014-2020, Valjang, Valjang.fr and the ValjangEngine community (CC-BY 3.0)
       
         <span class="commit">
           Revision <code>b3e50a4a</code>.

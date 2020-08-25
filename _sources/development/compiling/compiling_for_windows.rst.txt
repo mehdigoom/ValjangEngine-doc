@@ -82,7 +82,7 @@ a **Repair** option, which won't let you install C++ tools.
 Downloading ValjangEngine's source
 --------------------------
 
-ValjangEngine's source code is `hosted on GitHub <https://github.com/ValjangEngineengine/ValjangEngine>`_.
+ValjangEngine's source code is `hosted on GitHub <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine>`_.
 Downloading it (cloning) using `Git <https://git-scm.com/>`_ is recommended.
 
 The tutorial will assume from now on that you placed the source code in
@@ -223,7 +223,7 @@ Troubleshooting
 ~~~~~~~~~~~~~~~
 
 Cross-compiling from some Ubuntu versions may lead to
-`this bug <https://github.com/ValjangEngineengine/ValjangEngine/issues/9258>`_,
+`this bug <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues/9258>`_,
 due to a default configuration lacking support for POSIX threading.
 
 You can change that configuration following those instructions,

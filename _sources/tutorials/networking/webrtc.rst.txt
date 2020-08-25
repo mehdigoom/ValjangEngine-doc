@@ -35,7 +35,7 @@ Using WebRTC in ValjangEngine
 
 WebRTC is implemented in ValjangEngine via two main classes :ref:`WebRTCPeerConnection <class_WebRTCPeerConnection>` and :ref:`WebRTCDataChannel <class_WebRTCDataChannel>`, plus the multiplayer API implementation :ref:`WebRTCMultiplayer <class_WebRTCMultiplayer>`. See section on :ref:`high-level multiplayer <doc_high_level_multiplayer>` for more details.
 
-.. note:: These classes are available automatically in HTML5, but **require an external GDNative plugin on native (non-HTML5) platforms**. Check out the `webrtc-native plugin repository <https://github.com/ValjangEngineengine/webrtc-native>`__ for instructions and to get the latest `release <https://github.com/ValjangEngineengine/webrtc-native/releases>`__.
+.. note:: These classes are available automatically in HTML5, but **require an external GDNative plugin on native (non-HTML5) platforms**. Check out the `webrtc-native plugin repository <https://github.com/mehdigoom/ValjangEngine-doc/webrtc-native>`__ for instructions and to get the latest `release <https://github.com/mehdigoom/ValjangEngine-doc/webrtc-native/releases>`__.
 
 Minimal connection example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -205,4 +205,4 @@ This will print something similar to this:
 Remote signaling with WebSocket
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-A more advanced demo using WebSocket for signaling peers and :ref:`WebRTCMultiplayer <class_WebRTCMultiplayer>` is available in the `ValjangEngine demo projects <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects>`_ under `networking/webrtc_signaling`.
+A more advanced demo using WebSocket for signaling peers and :ref:`WebRTCMultiplayer <class_WebRTCMultiplayer>` is available in the `ValjangEngine demo projects <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects>`_ under `networking/webrtc_signaling`.

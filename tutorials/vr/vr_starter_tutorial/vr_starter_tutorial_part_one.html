@@ -8635,7 +8635,7 @@ GDScript</div>
 </div>
 <p>Pour aider à réduire le mal des transports pendant les déplacements, nous allons ajouter un effet de vignette qui ne sera visible que lorsque le joueur se déplacera.</p>
 <p>Tout d'abord, revenez rapidement à <code class="docutils literal notranslate"><span class="pre">Game.tscn</span></code>. Sous le nœud <a class="reference internal" href="../../../classes/class_arvrorigin.html#class-arvrorigin"><span class="std std-ref">ARVROrigin</span></a> il y a un nœud enfant appelé <code class="docutils literal notranslate"><span class="pre">Movement_Vignette</span></code>. Ce nœud va appliquer une simple vignette au casque VR lorsque le joueur se déplace à l'aide des contrôleurs VR. Cela devrait contribuer à réduire le mal des transports.</p>
-<p>Ouvrez le fichier <code class="docutils literal notranslate"><span class="pre">Movement_Vignette.tscn</span></code>, que vous trouverez dans le dossier <code class="docutils literal notranslate"><span class="pre">Scenes</span></code>. La scène est juste un nœud <a class="reference internal" href="../../../classes/class_colorrect.html#class-colorrect"><span class="std std-ref">ColorRect</span></a> avec un shader personnalisé. N'hésitez pas à regarder le shader personnalisé si vous le souhaitez, c'est juste une version légèrement modifiée du shader vignette que vous pouvez trouver dans le dépôt de démonstration <a class="reference external" href="https://github.com/ValjangEngineengine/ValjangEngine-demo-projects">ValjangEngine</a>.</p>
+<p>Ouvrez le fichier <code class="docutils literal notranslate"><span class="pre">Movement_Vignette.tscn</span></code>, que vous trouverez dans le dossier <code class="docutils literal notranslate"><span class="pre">Scenes</span></code>. La scène est juste un nœud <a class="reference internal" href="../../../classes/class_colorrect.html#class-colorrect"><span class="std std-ref">ColorRect</span></a> avec un shader personnalisé. N'hésitez pas à regarder le shader personnalisé si vous le souhaitez, c'est juste une version légèrement modifiée du shader vignette que vous pouvez trouver dans le dépôt de démonstration <a class="reference external" href="https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects">ValjangEngine</a>.</p>
 <p>Écrivons le code qui rendra le shader vignette visible lorsque le joueur est en mouvement. Sélectionnez le nœud <code class="docutils literal notranslate"><span class="pre">Movement_Vignette</span></code> et créez un nouveau script appelé <code class="docutils literal notranslate"><span class="pre">Movement_Vignette.gd</span></code>. Ajouter le code suivant :</p>
 <div class="sphinx-tabs docutils container">
 <div class="ui top attached tabular menu sphinx-menu docutils container">
@@ -8736,7 +8736,7 @@ GDScript</div>
 
   <div role="contentinfo">
     <p>
-        &copy; Copyright 2014-2020, Juan Linietsky, Ariel Manzur and the ValjangEngine community (CC-BY 3.0)
+        &copy; Copyright 2014-2020, Valjang, Valjang.fr and the ValjangEngine community (CC-BY 3.0)
       
         <span class="commit">
           Revision <code>b3e50a4a</code>.

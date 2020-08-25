@@ -415,4 +415,4 @@ disable it by setting "Export With Debug" off when you export the project.
           technology and you may find some things that don't work. Make sure
           you have updated your browser to the most recent version, and report
           any bugs you find at the `ValjangEngine GitHub repository
-          <https://github.com/ValjangEngineengine/ValjangEngine/issues>`_.
+          <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues>`_.

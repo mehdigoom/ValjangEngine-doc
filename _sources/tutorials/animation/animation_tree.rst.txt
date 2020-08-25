@@ -29,7 +29,7 @@ At the end, the imported ValjangEngine scene will contain the animations in a ``
 As you rarely use imported scenes directly in ValjangEngine (they are either instantiated or inherited from), you can place the ``AnimationTree`` node in your
 new scene which contains the imported one. Afterwards, point the ``AnimationTree`` node to the ``AnimationPlayer`` that was created in the imported scene.
 
-This is how it's done in the `Third Person Shooter demo <https://github.com/ValjangEngineengine/tps-demo>`_, for reference:
+This is how it's done in the `Third Person Shooter demo <https://github.com/mehdigoom/ValjangEngine-doc/tps-demo>`_, for reference:
 
 .. image:: img/animtree1.png
 

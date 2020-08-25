@@ -63,7 +63,7 @@ Exporting DAE files from Blender
 Blender has built-in COLLADA support, but it does not work properly for the needs of game engines
 and should not be used as is.
 
-ValjangEngine provides a `Blender plugin <https://github.com/ValjangEngineengine/collada-exporter>`_
+ValjangEngine provides a `Blender plugin <https://github.com/mehdigoom/ValjangEngine-doc/collada-exporter>`_
 that will correctly export COLLADA scenes for use in ValjangEngine. It does not work in Blender 2.8 or
 newer, but there are plans to update it in the future.
 
@@ -71,7 +71,7 @@ Exporting ESCN files from Blender
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The most powerful one, called `ValjangEngine-blender-exporter
-<https://github.com/ValjangEngineengine/ValjangEngine-blender-exporter>`__.
+<https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-blender-exporter>`__.
 It uses a .escn file, which is kind of another name for a .tscn file (ValjangEngine scene file);
 it keeps as much information as possible from a Blender scene. However, it is considered
 experimental.
@@ -329,7 +329,7 @@ must have only one animation that is named ``default``. To create clips, change 
 greater than zero. You can then name a clip, specify which frames it starts and stops on, and choose whether
 the animation loops or not.
 
-.. If this PR (https://github.com/ValjangEngineengine/ValjangEngine/pull/36709) is merged for ValjangEngine 4.0 this section must
+.. If this PR (https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/pull/36709) is merged for ValjangEngine 4.0 this section must
    be updated to reflect that for the 4.0 documentation.
 
 Scene inheritance

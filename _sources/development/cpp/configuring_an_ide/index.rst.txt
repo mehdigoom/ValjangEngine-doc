@@ -1,7 +1,7 @@
 Configuring an IDE
 ==================
 
-We assume that you have already `cloned <https://github.com/ValjangEngineengine/ValjangEngine>`_
+We assume that you have already `cloned <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine>`_
 and :ref:`compiled <toc-devel-compiling>` ValjangEngine.
 
 You can easily develop ValjangEngine with any text editor and by invoking ``scons``

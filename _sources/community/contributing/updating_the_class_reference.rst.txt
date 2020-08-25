@@ -24,17 +24,17 @@ to create an issue (or a comment in an existing one) to let others know so they 
 How to contribute
 -----------------
 
-The class reference lies in the following XML files, in ValjangEngine's GitHub repository: `doc/classes/ <https://github.com/ValjangEngineengine/ValjangEngine/tree/master/doc/classes>`_.
+The class reference lies in the following XML files, in ValjangEngine's GitHub repository: `doc/classes/ <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/tree/master/doc/classes>`_.
 
 There are 5 steps to update the class reference (full guide below):
 
-1. Fork `ValjangEngine's repository <https://github.com/ValjangEngineengine/ValjangEngine>`_
+1. Fork `ValjangEngine's repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine>`_
 2. Clone your fork on your computer
 3. Edit the class file in ``doc/classes/`` to write documentation
 4. Commit your changes and push them to your fork
 5. Make a pull request on the ValjangEngine repository
 
-.. warning:: Always use these XML files to edit the API reference. Do not edit the generated .rst files :ref:`in the online documentation <toc-class-ref>`, hosted in the `ValjangEngine-docs <https://github.com/ValjangEngineengine/ValjangEngine-docs>`_ repository.
+.. warning:: Always use these XML files to edit the API reference. Do not edit the generated .rst files :ref:`in the online documentation <toc-class-ref>`, hosted in the `ValjangEngine-docs <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs>`_ repository.
 
 Get started with GitHub
 -----------------------
@@ -75,7 +75,7 @@ First add an ``upstream`` git *remote* to work with. Remotes are links to online
 
 ::
 
-    git remote add upstream https://github.com/ValjangEngineengine/ValjangEngine
+    git remote add upstream https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine
 
 You can check the list of all remote servers with:
 
@@ -90,8 +90,8 @@ You should have two: ``origin``, your fork on GitHub that Git adds by default, a
 
     origin  https://github.com/your_name/ValjangEngine.git (fetch)
     origin  https://github.com/your_name/ValjangEngine.git (push)
-    upstream        https://github.com/ValjangEngineengine/ValjangEngine.git (fetch)
-    upstream        https://github.com/ValjangEngineengine/ValjangEngine.git (push)
+    upstream        https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine.git (fetch)
+    upstream        https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine.git (push)
 
 Each time you want to sync your branch to the state of the upstream repository, enter:
 
@@ -296,7 +296,7 @@ The documentation can be translated in any language on `Hosted Weblate
 <https://hosted.weblate.org/projects/ValjangEngine-engine/ValjangEngine-docs/>`__.
 
 Translated strings are synced manually by documentation maintainers in
-the `ValjangEngine-docs-l10n <https://github.com/ValjangEngineengine/ValjangEngine-docs-l10n>`__
+the `ValjangEngine-docs-l10n <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs-l10n>`__
 repository.
 
 Languages with a good level of completion have their own localized

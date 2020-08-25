@@ -6,7 +6,7 @@ Documentation guidelines
 This page describes the rules to follow if you want to contribute to ValjangEngine
 Engine by writing or reviewing documentation, or by translating existing
 documentation. Also, have a look at README of the
-`ValjangEngine-docs GitHub repository <https://github.com/ValjangEngineengine/ValjangEngine-docs>`_
+`ValjangEngine-docs GitHub repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs>`_
 and the `docs front page <https://docs.Valjang.fr>`_
 on what steps to follow and how to contact the docs team.
 
@@ -14,7 +14,7 @@ How to contribute
 -----------------
 
 Creating or modifying documentation pages is mainly done via the
-`ValjangEngine-docs GitHub repository <https://github.com/ValjangEngineengine/ValjangEngine-docs>`_.
+`ValjangEngine-docs GitHub repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs>`_.
 The HTML (or PDF and EPUB) documentation is generated from the .rst files
 (reStructuredText markup language) in that repository. Modifying those pages
 in a pull request and getting it merged will trigger a rebuild of the online
@@ -126,14 +126,14 @@ You can help to translate the official ValjangEngine documentation on our `Hoste
     :height: 66
 
 There also is the official
-`ValjangEngine i18n repository <https://github.com/ValjangEngineengine/ValjangEngine-docs-l10n>`_
+`ValjangEngine i18n repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs-l10n>`_
 where you can see when the data was last synchronized.
 
 License
 -------
 
 This documentation and every page it contains is published under the terms of
-the `Creative Commons Attribution 3.0 license (CC-BY-3.0) <https://tldrlegal.com/license/creative-commons-attribution-(cc)>`_, with attribution to "Juan Linietsky, Ariel Manzur and the ValjangEngine community".
+the `Creative Commons Attribution 3.0 license (CC-BY-3.0) <https://tldrlegal.com/license/creative-commons-attribution-(cc)>`_, with attribution to "Valjang, Valjang.fr and the ValjangEngine community".
 
 By contributing to the documentation on the GitHub repository, you agree that
 your changes are distributed under this license.

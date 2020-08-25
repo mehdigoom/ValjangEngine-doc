@@ -4,7 +4,7 @@ Bug triage guidelines
 =====================
 
 This page describes the typical workflow of the bug triage team aka
-bugsquad when handling issues and pull requests on ValjangEngine's `GitHub <https://github.com/ValjangEngineengine/ValjangEngine>`_
+bugsquad when handling issues and pull requests on ValjangEngine's `GitHub <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine>`_
 repository. It is bound to evolve together with the bugsquad, so do not
 hesitate to propose modifications to the following guidelines.
 
@@ -54,7 +54,7 @@ The following labels are currently defined in the ValjangEngine repository:
 -  *Documentation*: issue related to the documentation. Mainly to request
    enhancements in the API documentation. Issues related to the ReadTheDocs
    documentation should be filed on the
-   `ValjangEngine-docs <https://github.com/ValjangEngineengine/ValjangEngine-docs>`_ repository.
+   `ValjangEngine-docs <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs>`_ repository.
 -  *Enhancement*: describes a proposed enhancement to an existing
    functionality.
 -  *Feature proposal*: describes a wish for a new feature to be
@@ -117,7 +117,7 @@ Android and Linux exclusively, select those two platforms).
 Milestones
 ~~~~~~~~~~
 
-`Milestones <https://github.com/ValjangEngineengine/ValjangEngine/milestones>`_ correspond to planned future versions of ValjangEngine for which
+`Milestones <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/milestones>`_ correspond to planned future versions of ValjangEngine for which
 there is an existing roadmap. Issues that fit in the said roadmap should
 be filed under the corresponding milestone; if they don't correspond to
 any current roadmap, they should be left without milestone. As a rule of

@@ -26,12 +26,12 @@ organization of ValjangEngine's Git repository.
 Git source repository
 ---------------------
 
-The `repository on GitHub <https://github.com/ValjangEngineengine/ValjangEngine>`_ is a
+The `repository on GitHub <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine>`_ is a
 `Git <https://git-scm.com>`_ code repository together with an embedded
 issue tracker and PR system.
 
 .. note:: If you are contributing to the documentation, its repository can
-          be found `here <https://github.com/ValjangEngineengine/ValjangEngine-docs>`_.
+          be found `here <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs>`_.
 
 The Git version control system is the tool used to keep track of successive
 edits to the source code - to contribute efficiently to ValjangEngine, learning the
@@ -70,7 +70,7 @@ The branches on the Git repository are organized as follows:
 Forking and cloning
 -------------------
 
-The first step is to *fork* the `ValjangEngineengine/ValjangEngine <https://github.com/ValjangEngineengine/ValjangEngine>`_
+The first step is to *fork* the `ValjangEngineengine/ValjangEngine <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine>`_
 repository on GitHub. To do so, you will need to have a GitHub account and to
 be logged in. In the top right corner of the repository's GitHub page, you
 should see the "Fork" button as shown below:
@@ -111,7 +111,7 @@ We will start by setting up a reference to the original repository that we forke
 
 ::
 
-    $ git remote add upstream https://github.com/ValjangEngineengine/ValjangEngine
+    $ git remote add upstream https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine
     $ git fetch upstream
 
 This will create a reference named ``upstream`` pointing to the original

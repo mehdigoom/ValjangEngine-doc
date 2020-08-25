@@ -1044,7 +1044,7 @@ vignette to the VR headset when the player is moving using the VR controllers. T
 
 Open up ``Movement_Vignette.tscn``, which you can find in the ``Scenes`` folder. The scene is just a :ref:`ColorRect <class_ColorRect>` node with a custom
 shader. Feel free to look at the custom shader if you want, it is just a slightly modified version of the vignette shader you can find in the
-`ValjangEngine demo repository <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects>`_.
+`ValjangEngine demo repository <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects>`_.
 
 Let's write the code that will make the vignette shader visible when the player is moving. Select the ``Movement_Vignette`` node and create a new script called ``Movement_Vignette.gd``.
 Add the following code:

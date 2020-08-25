@@ -10,9 +10,9 @@ Introduction
              As such, you may still run into some issues, or find spots
              where the documentation could be improved.
              Please report issues with C# in ValjangEngine on the
-             `engine GitHub page <https://github.com/ValjangEngineengine/ValjangEngine/issues>`_,
+             `engine GitHub page <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/issues>`_,
              and any documentation issues on the
-             `documentation GitHub page <https://github.com/ValjangEngineengine/ValjangEngine-docs/issues>`_.
+             `documentation GitHub page <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-docs/issues>`_.
 
 This page provides a brief introduction to C#, both what it is and
 how to use it in ValjangEngine. Afterwards, you may want to look at
@@ -216,7 +216,7 @@ As C# support is quite new in ValjangEngine, there are some growing pains and th
 that need to be ironed out. Below is a list of the most important issues
 you should be aware of when diving into C# in ValjangEngine, but if in doubt, also
 take a look over the official
-`issue tracker for Mono issues <https://github.com/ValjangEngineengine/ValjangEngine/labels/topic%3Amono>`_.
+`issue tracker for Mono issues <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/labels/topic%3Amono>`_.
 
 - Writing editor plugins is possible, but it is currently quite convoluted.
 - State is currently not saved and restored when hot-reloading,
@@ -279,7 +279,7 @@ Profiling your C# code
 ----------------------
 
 - `Mono log profiler <https://www.mono-project.com/docs/debug+profile/profile/profiler/>`_ is available for Linux and macOS. Due to a Mono change, it does not work on Windows currently.
-- External Mono profiler like `JetBrains dotTrace <https://www.jetbrains.com/profiler/>`_ can be used as described `here <https://github.com/ValjangEngineengine/ValjangEngine/pull/34382>`_.
+- External Mono profiler like `JetBrains dotTrace <https://www.jetbrains.com/profiler/>`_ can be used as described `here <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine/pull/34382>`_.
 
 .. _doc_c_sharp_configuring_vs_2019_for_debugging:
 

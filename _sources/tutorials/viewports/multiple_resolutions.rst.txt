@@ -282,5 +282,5 @@ that it allows enable linear filtering. This makes scaled 3D viewports look
 better in many cases.
 
 See the
-`3D viewport scaling demo <https://github.com/ValjangEngineengine/ValjangEngine-demo-projects/tree/master/viewport/3d_scaling>`__
+`3D viewport scaling demo <https://github.com/mehdigoom/ValjangEngine-doc/ValjangEngine-demo-projects/tree/master/viewport/3d_scaling>`__
 for examples.
