@@ -2335,7 +2335,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../tutorials/plugins/android/index.html">Plugins Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../tutorials/plugins/android/android_plugin.html">Creating Android plugins (ValjangEngine 3.2.2+)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/plugins/android/android_plugin.html">Creating Android plugins (ValjangEngine  4.0.2+)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../tutorials/plugins/android/android_plugin.html#introduction">Introduction</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../tutorials/plugins/android/android_plugin.html#android-plugin">plugin Android</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../../tutorials/plugins/android/android_plugin.html#troubleshooting">Dépannage</a></li>
@@ -2347,7 +2347,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../tutorials/platform/index.html">Propre à une plateforme</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../tutorials/platform/android_in_app_purchases.html">Achats intégrés à l’application Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../tutorials/platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine 3.2.1 et moins (ValjangEnginePaymentsV3)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../tutorials/platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine  4.0.1 et moins (ValjangEnginePaymentsV3)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../tutorials/platform/android_in_app_purchases.html#changes">Modifications</a></li>
 </ul>
 </li>
@@ -7892,7 +7892,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <div class="section" id="using-official-builds-to-speed-up-bisecting">
 <h2>Utiliser les compilations officielles pour accélérer la bissection<a class="headerlink" href="bisecting_regressions.html#using-official-builds-to-speed-up-bisecting" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Avant d'utiliser la commande &quot;bisect&quot; de Git, nous vous recommandons fortement d'essayer de reproduire le bug avec une version officielle plus ancienne (ou plus récente). Cela réduit considérablement le nombre de commits qui doivent potentiellement être construits à partir des sources et testés. Vous pouvez trouver les binaires des versions officielles, ainsi que les alphas, les bêtas et les candidats aux versions <a class="reference external" href="https://downloads.tuxfamily.org/ValjangEngineengine/">ici</a>.</p>
-<p>Par exemple, si vous avez signalé un bogue contre ValjangEngine 3.2, vous devez d'abord essayer de reproduire le bogue dans ValjangEngine 3.1 (pas une version de correction, voir ci-dessous pour la raison). Si le bogue ne s'y produit pas, essayez de le reproduire dans ValjangEngine 3.2 <em>beta 1</em> (qui se situe à peu près au milieu de toutes les versions de test disponibles). Si vous ne pouvez pas reproduire le bogue avec ValjangEngine 3.2 beta 1, essayez des versions bêta et RC plus récentes. Si vous parvenez à reproduire le bogue avec ValjangEngine 3.2 beta 1, essayez des versions alpha plus anciennes.</p>
+<p>Par exemple, si vous avez signalé un bogue contre ValjangEngine  4.0, vous devez d'abord essayer de reproduire le bogue dans ValjangEngine 3.1 (pas une version de correction, voir ci-dessous pour la raison). Si le bogue ne s'y produit pas, essayez de le reproduire dans ValjangEngine  4.0 <em>beta 1</em> (qui se situe à peu près au milieu de toutes les versions de test disponibles). Si vous ne pouvez pas reproduire le bogue avec ValjangEngine  4.0 beta 1, essayez des versions bêta et RC plus récentes. Si vous parvenez à reproduire le bogue avec ValjangEngine  4.0 beta 1, essayez des versions alpha plus anciennes.</p>
 <div class="admonition warning">
 <p class="first admonition-title">Avertissement</p>
 <p class="last">Pour bissecter une régression, n'utilisez pas les versions de patchs telles que ValjangEngine 3.1.2. Utilisez plutôt la première version de la version mineure comme ValjangEngine 3.1. En effet, les versions de correction sont construites à partir d'une branche <em>stable</em> distincte. Ce type de branche ne suit pas le reste du développement de ValjangEngine, qui est fait dans la branche <code class="docutils literal notranslate"><span class="pre">master</span></code>.</p>
@@ -7908,7 +7908,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </div>
 <p>Pour commencer à bissecter, vous devez d'abord déterminer les hashs de commit (identifiants) des &quot;mauvaises&quot; et &quot;bonnes&quot; constructions. &quot;bad&quot; se réfère à la version qui présente le bogue, tandis que &quot;good&quot; se réfère à la version qui ne présente pas le bogue. Si vous utilisez une pré-version comme &quot;bonne&quot; ou &quot;mauvaise&quot; version, naviguez dans le <a class="reference external" href="https://downloads.tuxfamily.org/ValjangEngineengine/">miroir de téléchargement</a>, allez dans le dossier qui contient la pré-version que vous avez téléchargée et cherchez le fichier <code class="docutils literal notranslate"><span class="pre">README.txt</span></code>. Le hachage du commit est écrit à l'intérieur de ce fichier.</p>
 <p>Si vous utilisez une version stable comme &quot;bonne&quot; ou &quot;mauvaise&quot; compilation, utilisez l'un des hashs de commit suivants selon la version :</p>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>3.2-stable
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span> 4.0-stable
 3.1-stable
 3.0-stable
 </pre></div>

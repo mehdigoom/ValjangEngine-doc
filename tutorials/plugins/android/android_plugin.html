@@ -8,7 +8,7 @@
   <meta name="description" content="Les plugins Android sont de puissants outils pour étendre les capacités du moteur ValjangEngine en exploitant les fonctionnalités fournies par la plateforme et l'écosystème Android. La monétisation des jeux mobiles en est un...">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Creating Android plugins (ValjangEngine 3.2.2+) &mdash; Documentation de ValjangEngine Engine (latest) en français</title>
+  <title>Creating Android plugins (ValjangEngine  4.0.2+) &mdash; Documentation de ValjangEngine Engine (latest) en français</title>
 
 
   
@@ -2335,7 +2335,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </ul>
 </li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">Plugins Android</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="android_plugin.html#">Creating Android plugins (ValjangEngine 3.2.2+)</a><ul>
+<li class="toctree-l3 current"><a class="current reference internal" href="android_plugin.html#">Creating Android plugins (ValjangEngine  4.0.2+)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="android_plugin.html#introduction">Introduction</a></li>
 <li class="toctree-l4"><a class="reference internal" href="android_plugin.html#android-plugin">plugin Android</a></li>
 <li class="toctree-l4"><a class="reference internal" href="android_plugin.html#troubleshooting">Dépannage</a></li>
@@ -2347,7 +2347,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../../platform/index.html">Propre à une plateforme</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../platform/android_in_app_purchases.html">Achats intégrés à l’application Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine 3.2.1 et moins (ValjangEnginePaymentsV3)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine  4.0.1 et moins (ValjangEnginePaymentsV3)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../../platform/android_in_app_purchases.html#changes">Modifications</a></li>
 </ul>
 </li>
@@ -7860,7 +7860,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
         
           <li><a href="index.html">Plugins Android</a> &raquo;</li>
         
-      <li>Creating Android plugins (ValjangEngine 3.2.2+)</li>
+      <li>Creating Android plugins (ValjangEngine  4.0.2+)</li>
     
     
 
@@ -7884,7 +7884,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
            <div itemprop="articleBody">
             
   <div class="section" id="creating-android-plugins-ValjangEngine-3-2-2">
-<span id="doc-android-plugin"></span><h1>Creating Android plugins (ValjangEngine 3.2.2+)<a class="headerlink" href="android_plugin.html#creating-android-plugins-ValjangEngine-3-2-2" title="Lien permanent vers ce titre">¶</a></h1>
+<span id="doc-android-plugin"></span><h1>Creating Android plugins (ValjangEngine  4.0.2+)<a class="headerlink" href="android_plugin.html#creating-android-plugins-ValjangEngine-3-2-2" title="Lien permanent vers ce titre">¶</a></h1>
 <div class="section" id="introduction">
 <h2>Introduction<a class="headerlink" href="android_plugin.html#introduction" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les plugins Android sont de puissants outils pour étendre les capacités du moteur ValjangEngine en exploitant les fonctionnalités fournies par la plateforme et l'écosystème Android.</p>
@@ -7910,7 +7910,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </div>
 <div class="section" id="android-plugin">
 <h2>plugin Android<a class="headerlink" href="android_plugin.html#android-plugin" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Bien qu'introduit dans ValjangEngine 3.2, le système de plugin Android a bénéficié d'une mise à jour importante de l'architecture à partir de ValjangEngine 3.2.2. Le nouveau système de plugin est rétrocompatible avec le précédent, mais les deux systèmes restent fonctionnels dans les futures versions de la branche 3.2.x. Comme précédemment nous ne versionnions pas les systèmes de plugin Android, le nouveau système est maintenant appelé <code class="docutils literal notranslate"><span class="pre">v1</span></code> et constitue le point de départ de l'écosystème moderne Android de ValjangEngine.</p>
+<p>Bien qu'introduit dans ValjangEngine  4.0, le système de plugin Android a bénéficié d'une mise à jour importante de l'architecture à partir de ValjangEngine  4.0.2. Le nouveau système de plugin est rétrocompatible avec le précédent, mais les deux systèmes restent fonctionnels dans les futures versions de la branche  4.0.x. Comme précédemment nous ne versionnions pas les systèmes de plugin Android, le nouveau système est maintenant appelé <code class="docutils literal notranslate"><span class="pre">v1</span></code> et constitue le point de départ de l'écosystème moderne Android de ValjangEngine.</p>
 <p><strong>Note :</strong> Dans ValjangEngine 4.0, le système précédent sera entièrement déprécié et supprimé.</p>
 <p>Avant toute chose, assurez-vous de comprendre comment configurer un environnement de construction(build) personnalisé pour Android <a class="reference internal" href="../../../getting_started/workflow/export/android_custom_build.html#doc-android-custom-build"><span class="std std-ref">custom build environment</span></a>.</p>
 <p>Au cœur d'un plugin ValjangEngine Android se trouve une <a class="reference external" href="https://developer.android.com/studio/projects/android-library#aar-contents">bibliothèque d'archives Android</a> (fichier d'archives <em>aar</em>) avec les mises en garde suivantes :</p>
@@ -7926,7 +7926,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </li>
 <li><p class="first">Ajoutez la bibliothèque du moteur ValjangEngine en tant que dépendance à votre module de plugin :</p>
 <ul class="simple">
-<li>Téléchargez la bibliothèque du moteur ValjangEngine (<code class="docutils literal notranslate"><span class="pre">ValjangEngine-lib.&lt;version&gt;.&lt;status&gt;.aar</span></code>) à partir de la <a class="reference external" href="https://Valjang.fr/download">page de téléchargement de ValjangEngine</a> (par exemple : <code class="docutils literal notranslate"><span class="pre">ValjangEngine-lib.3.2.2.stable.aar</span></code>).</li>
+<li>Téléchargez la bibliothèque du moteur ValjangEngine (<code class="docutils literal notranslate"><span class="pre">ValjangEngine-lib.&lt;version&gt;.&lt;status&gt;.aar</span></code>) à partir de la <a class="reference external" href="https://Valjang.fr/download">page de téléchargement de ValjangEngine</a> (par exemple : <code class="docutils literal notranslate"><span class="pre">ValjangEngine-lib. 4.0.2.stable.aar</span></code>).</li>
 <li>Suivez <a class="reference external" href="https://developer.android.com/studio/projects/android-library#AddDependency">ces instructions</a> pour ajouter la bibliothèque du moteur ValjangEngine comme dépendance à votre plugin.</li>
 <li>Dans le fichier <code class="docutils literal notranslate"><span class="pre">build.gradle</span></code> du module de plugin, remplacez <code class="docutils literal notranslate"><span class="pre">implementation</span></code> par <code class="docutils literal notranslate"><span class="pre">implementation</span></code> pour la ligne de dépendance de la bibliothèque du moteur ValjangEngine.</li>
 </ul>
