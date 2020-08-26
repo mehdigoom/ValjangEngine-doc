@@ -8140,7 +8140,7 @@ C#</div>
 <p class="first admonition-title">Note</p>
 <p class="last">Dans ValjangEngine, toutes les transformations mathématiques sont effectuées par rapport au nœud parent. Lorsque nous parlons de &quot;position mondiale&quot;, ce serait plutôt par rapport au parent du nœud, si le nœud avait un parent.</p>
 </div>
-<p>Si vous souhaitez des explications supplémentaires, vous pouvez consulter l'excellente vidéo de 3Blue1Brown sur les transformations linéaires : <a class="reference external" href="https://www.youtube.com/watch?v=kYB8IZa5AuE">https://www.youtube.com/watch?v=kYB8IZa5AuE</a></p>
+
 </div>
 </div>
 <div class="section" id="practical-applications-of-transforms">
@@ -8334,7 +8334,7 @@ C#</div>
 <p class="last">Quand on multiplie des matrices, l'ordre compte ! Ne les mélangez pas.</p>
 </div>
 <p>Enfin, appliquer la transformation d'identité ne fera rien.</p>
-<p>Si vous souhaitez des explications supplémentaires, vous pouvez consulter l'excellente vidéo de 3Blue1Brown sur la composition des matrices : <a class="reference external" href="https://www.youtube.com/watch?v=XkY2DOUCWMU">https://www.youtube.com/watch?v=XkY2DOUCWMU</a></p>
+
 </div>
 <div class="section" id="inverting-a-transformation-matrix">
 <h3>Inverser une matrice de transformation<a class="headerlink" href="matrices_and_transforms.html#inverting-a-transformation-matrix" title="Lien permanent vers ce titre">¶</a></h3>
@@ -8411,15 +8411,14 @@ C#</div>
 <p class="first admonition-title">Note</p>
 <p class="last">Vous ne pouvez pas modifier la matrice de transformation de Node2D directement dans l'inspecteur de ValjangEngine 3.2. Cela pourrait être modifié dans une future version de ValjangEngine.</p>
 </div>
-<p>Si vous souhaitez des explications supplémentaires, vous pouvez consulter l'excellente vidéo de 3Blue1Brown sur les transformations linéaires en 3D : <a class="reference external" href="https://www.youtube.com/watch?v=rHLEWRxRGiM">https://www.youtube.com/watch?v=rHLEWRxRGiM</a></p>
+
 <div class="section" id="representing-rotation-in-3d-advanced">
 <h3>Représentation de la rotation en 3D (avancé)<a class="headerlink" href="matrices_and_transforms.html#representing-rotation-in-3d-advanced" title="Lien permanent vers ce titre">¶</a></h3>
 <p>La plus grande différence entre les matrices de transformation 2D et 3D est la façon dont vous représentez la rotation par elle-même sans les vecteurs de base.</p>
 <p>Avec la 2D, nous avons un moyen facile (atan2) de passer d'une matrice de transformation à un angle. En 3D, nous ne pouvons pas simplement représenter la rotation comme un seul chiffre. Il existe quelque chose appelé angles d'Euler, qui peut représenter les rotations comme un ensemble de 3 nombres, mais ils sont limités et peu utiles, sauf dans des cas triviaux.</p>
 <p>En 3D, nous n'utilisons généralement pas d'angles, nous utilisons soit une base de transformation (utilisée à peu près partout dans ValjangEngine), soit des quaternions. ValjangEngine peut représenter les quaternions en utilisant la structure <a class="reference internal" href="../../classes/class_quat.html#class-quat"><span class="std std-ref">Quat</span></a>. Je vous suggère d'ignorer complètement comment ils fonctionnent sous le capot, car ils sont très compliqués et peu intuitifs.</p>
 <p>Cependant, si vous voulez vraiment savoir comment cela fonctionne, voici quelques ressources intéressantes, que vous pouvez suivre dans l'ordre :</p>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=mvmuCPvRoWQ">https://www.youtube.com/watch?v=mvmuCPvRoWQ</a></p>
-<p><a class="reference external" href="https://www.youtube.com/watch?v=d4EgbgTm0Bg">https://www.youtube.com/watch?v=d4EgbgTm0Bg</a></p>
+
 <p><a class="reference external" href="https://eater.net/quaternions">https://eater.net/quaternions</a></p>
 </div>
 </div>
