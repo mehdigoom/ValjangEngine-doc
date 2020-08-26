@@ -2335,7 +2335,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/plugins/android/index.html">Plugins Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../tutorials/plugins/android/android_plugin.html">Creating Android plugins (ValjangEngine 3.2.2+)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/plugins/android/android_plugin.html">Creating Android plugins (ValjangEngine  4.0.2+)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../tutorials/plugins/android/android_plugin.html#introduction">Introduction</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tutorials/plugins/android/android_plugin.html#android-plugin">plugin Android</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../tutorials/plugins/android/android_plugin.html#troubleshooting">Dépannage</a></li>
@@ -2347,7 +2347,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../tutorials/platform/index.html">Propre à une plateforme</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../tutorials/platform/android_in_app_purchases.html">Achats intégrés à l’application Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../tutorials/platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine 3.2.1 et moins (ValjangEnginePaymentsV3)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../tutorials/platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine  4.00.1 et moins (ValjangEnginePaymentsV3)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../tutorials/platform/android_in_app_purchases.html#changes">Modifications</a></li>
 </ul>
 </li>
@@ -9264,7 +9264,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </tbody>
 </table>
 <p>Comma-separated list of custom Android modules (which must have been built in the Android export templates) using their Java package path, e.g. <code class="docutils literal notranslate"><span class="pre">&quot;org/ValjangEngineengine/ValjangEngine/MyCustomSingleton,com/example/foo/FrenchFriesFactory&quot;</span></code>.</p>
-<p><strong>Note:</strong> Since ValjangEngine 3.2.2, the <code class="docutils literal notranslate"><span class="pre">org/ValjangEngineengine/ValjangEngine/ValjangEnginePaymentV3</span></code> module was deprecated and replaced by the <code class="docutils literal notranslate"><span class="pre">ValjangEnginePayment</span></code> plugin which should be enabled in the Android export preset under <code class="docutils literal notranslate"><span class="pre">Plugins</span></code> section. The singleton to access in code was also renamed to <code class="docutils literal notranslate"><span class="pre">ValjangEnginePayment</span></code>.</p>
+<p><strong>Note:</strong> Since ValjangEngine  4.00.2, the <code class="docutils literal notranslate"><span class="pre">org/ValjangEngineengine/ValjangEngine/ValjangEnginePaymentV3</span></code> module was deprecated and replaced by the <code class="docutils literal notranslate"><span class="pre">ValjangEnginePayment</span></code> plugin which should be enabled in the Android export preset under <code class="docutils literal notranslate"><span class="pre">Plugins</span></code> section. The singleton to access in code was also renamed to <code class="docutils literal notranslate"><span class="pre">ValjangEnginePayment</span></code>.</p>
 <hr class="docutils" />
 <ul class="simple" id="class-projectsettings-property-application-boot-splash-bg-color">
 <li><a class="reference internal" href="class_color.html#class-color"><span class="std std-ref">Color</span></a> <strong>application/boot_splash/bg_color</strong></li>
@@ -9762,7 +9762,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </tr>
 </tbody>
 </table>
-<p>Enables <a class="reference external" href="https://github.com/facebook/zstd/releases/tag/v1.3.2">long-distance matching</a> in Zstandard.</p>
+<p>Enables <a class="reference external" href="https://github.com/facebook/zstd/releases/tag/v1. 4.00">long-distance matching</a> in Zstandard.</p>
 <hr class="docutils" />
 <ul class="simple" id="class-projectsettings-property-compression-formats-zstd-window-log-size">
 <li><a class="reference internal" href="class_int.html#class-int"><span class="std std-ref">int</span></a> <strong>compression/formats/zstd/window_log_size</strong></li>
@@ -12990,7 +12990,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </tbody>
 </table>
 <p>Sets whether physics is run on the main thread or a separate one. Running the server on a thread increases performance, but restricts API access to only physics process.</p>
-<p><strong>Warning:</strong> As of ValjangEngine 3.2, there are mixed reports about the use of a Multi-Threaded thread model for physics. Be sure to assess whether it does give you extra performance and no regressions when using it.</p>
+<p><strong>Warning:</strong> As of ValjangEngine  4.00, there are mixed reports about the use of a Multi-Threaded thread model for physics. Be sure to assess whether it does give you extra performance and no regressions when using it.</p>
 <hr class="docutils" />
 <ul class="simple" id="class-projectsettings-property-physics-2d-time-before-sleep">
 <li><a class="reference internal" href="class_float.html#class-float"><span class="std std-ref">float</span></a> <strong>physics/2d/time_before_sleep</strong></li>

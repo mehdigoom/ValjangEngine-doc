@@ -2336,7 +2336,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../plugins/android/index.html">Plugins Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../plugins/android/android_plugin.html">Creating Android plugins (ValjangEngine 3.2.2+)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../plugins/android/android_plugin.html">Creating Android plugins (ValjangEngine  4.0.2+)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../plugins/android/android_plugin.html#introduction">Introduction</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../plugins/android/android_plugin.html#android-plugin">plugin Android</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../plugins/android/android_plugin.html#troubleshooting">Dépannage</a></li>
@@ -2348,7 +2348,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../platform/index.html">Propre à une plateforme</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../platform/android_in_app_purchases.html">Achats intégrés à l’application Android</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine 3.2.1 et moins (ValjangEnginePaymentsV3)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../platform/android_in_app_purchases.html#migrating-from-ValjangEngine-3-2-1-and-lower-ValjangEnginepaymentsv3">Migrer à partir de ValjangEngine  4.0.1 et moins (ValjangEnginePaymentsV3)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="../platform/android_in_app_purchases.html#changes">Modifications</a></li>
 </ul>
 </li>
@@ -7892,7 +7892,7 @@ READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerH
 <h2>Occlusion culling<a class="headerlink" href="optimizing_3d_performance.html#occlusion-culling" title="Lien permanent vers ce titre">¶</a></h2>
 <p>En vous promenant dans une ville par exemple, vous ne pourrez peut-être voir que quelques bâtiments dans la rue où vous vous trouvez, ainsi que le ciel et quelques oiseaux qui volent au-dessus de vous. En ce qui concerne un moteur de rendu naïf, vous pouvez cependant voir toute la ville. Il ne se contentera pas de rendre les bâtiments devant vous, il rendra la rue derrière, avec les gens dans cette rue, les bâtiments derrière. Vous vous retrouvez rapidement dans des situations où vous essayez de rendre 10x, ou 100x plus que ce qui est visible.</p>
 <p>Les choses ne sont pas aussi mauvaises qu'elles le paraissent, car le tampon Z permet généralement au GPU de ne calculer les ombres complètement que pour les objets qui se trouvent à l'avant. Cependant, les objets inutiles continuent de réduire les performances.</p>
-<p>Une façon de réduire potentiellement la quantité à rendre est de tirer profit de l'occlusion. À partir de la version 3.2.2, il n'y a plus de support intégré pour l'occlusion dans ValjangEngine, cependant, avec une conception soignée, vous pouvez encore obtenir de nombreux avantages.</p>
+<p>Une façon de réduire potentiellement la quantité à rendre est de tirer profit de l'occlusion. À partir de la version  4.0.2, il n'y a plus de support intégré pour l'occlusion dans ValjangEngine, cependant, avec une conception soignée, vous pouvez encore obtenir de nombreux avantages.</p>
 <p>Par exemple, dans notre scénario de la rue de la ville, vous pouvez vous rendre compte à l'avance que vous ne pouvez voir que deux autres rues, <code class="docutils literal notranslate"><span class="pre">B</span></code> et <code class="docutils literal notranslate"><span class="pre">C</span></code>, à partir de la rue <code class="docutils literal notranslate"><span class="pre">A</span></code>. Les rues <code class="docutils literal notranslate"><span class="pre">D</span></code> à <code class="docutils literal notranslate"><span class="pre">Z</span></code> sont cachées. Pour tirer parti de l'occlusion, il suffit de tester lorsque le spectateur se trouve dans la rue <code class="docutils literal notranslate"><span class="pre">A</span></code> (peut-être en utilisant les Areas de ValjangEngine), puis de cacher les autres rues.</p>
 <p>Il s'agit d'une version manuelle de ce que l'on appelle un 'potentially visible set'. C'est une technique très puissante qui permet d'accélérer le rendu. Vous pouvez également l'utiliser pour restreindre la physique ou l'IA à la zone locale, et accélérer ces éléments ainsi que le rendu.</p>
 </div>
